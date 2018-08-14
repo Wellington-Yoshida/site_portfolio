@@ -1,0 +1,176 @@
+body{
+  box-sizing: border-box;
+  display: block;
+  font-family: 'Lato', sans-serif;
+}
+.row{
+  width: 100%;
+}
+
+hr {
+    border: 1px solid #7d97ad;
+}
+
+.titulo_com_font_mais_fina{
+  font-weight: 300;
+}
+
+.cabecalho{
+  display: flex;
+}
+
+.titulo{
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.col_6{
+  width: 50%;
+}
+
+.col_12{
+  width: 100%;
+}
+
+article, a{
+  color: #2d3c49;
+}
+.rodape{
+  display: flex;
+}
+.iconesRedesSociais{
+  display: flex;
+  padding: 10px;
+}
+
+.icone_facebook{
+  width: 30px;
+  margin-top: 1px;
+}
+
+.icone_linkedin{
+  width: 33px;
+}
+
+@media screen and (min-width: 200px) {
+    body{
+      box-sizing: border-box;
+      display: block;
+      margin: 10px;
+    }
+
+    .conteiter{
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    header{
+      width: auto;
+      margin: 0 auto;
+    }
+
+    .logo{
+      margin-top: 10px;
+    }
+
+    .conteudo{
+      margin: 0 auto;
+    }
+
+    img{
+      max-width: 100%;
+    }
+
+    .trabalhos_realizado{
+      margin: 0 auto;
+      color: #7d97ad;
+      text-align: center;
+    }
+
+    .descricao_projeto{
+      text-transform: uppercase;
+    }
+
+    .artigo, .blog, .card_colecionaveis{
+      text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 450px){
+    body{
+      box-sizing: border-box;
+      display: block;
+      margin: 10px;
+    }
+
+    .conteiter{
+      width: 420px;
+      margin: 0 auto;
+    }
+
+    .imagem_projeto{
+      max-width: 60%;
+    }
+
+  }
+
+  @media screen and (min-width: 700px){
+    .imagem_projeto{
+      max-width: 50%;
+    }
+
+    .conteiter{
+      width: 660px;
+      margin: 0 auto;
+    }
+
+    .imagem_central{
+      margin: 0 auto;
+      width: 100vw;
+      height: 50vw;
+    }
+
+    .trabalhos_realizado{
+      color: #7d97ad;
+    }
+
+  }
+
+  @media screen and (min-width: 850px){
+    .conteiter{
+      width: 810px;
+      margin: 0 auto;
+    }
+
+    .imagem_projeto{
+      max-width: 100%;
+    }
+
+    .imagem_central{
+      margin: 0 auto;
+      width: 100vw;
+      height: 35vw;
+    }
+
+    .projetos_feito{
+      display: flex;
+    }
+
+    .trabalhos_realizado{
+      text-align: left;
+      margin-left: 40px;
+
+    }
+
+    .projetos{
+      width: 33.33%;
+    }
+
+  }
+
+  @media screen and (min-width: 1024px){
+    .conteiter{
+      width: 980px;
+      margin: 0 auto;
+    }
+  }
