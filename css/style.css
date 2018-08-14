@@ -1,9 +1,10 @@
-body{
+body {
   box-sizing: border-box;
   display: block;
   font-family: 'Lato', sans-serif;
+  background-color: #FFFFF0;
 }
-.row{
+.row {
   width: 100%;
 }
 
@@ -11,165 +12,165 @@ hr {
     border: 1px solid #7d97ad;
 }
 
-.titulo_com_font_mais_fina{
+.titulo-com-font-mais-fina{
   font-weight: 300;
 }
 
-.cabecalho{
+.cabecalho {
   display: flex;
 }
 
-.titulo{
+.titulo {
   text-align: right;
   text-transform: uppercase;
 }
 
-.col_6{
+.col-6 {
   width: 50%;
 }
 
-.col_12{
+.col-12 {
   width: 100%;
 }
 
-article, a{
+article, a {
   color: #2d3c49;
 }
-.rodape{
+.rodape {
   display: flex;
 }
-.iconesRedesSociais{
+.icones-rede-sociais {
   display: flex;
   padding: 10px;
 }
 
-.icone_facebook{
+.icone-facebook {
   width: 30px;
   margin-top: 1px;
 }
 
-.icone_linkedin{
+.icone-linkedin {
   width: 33px;
 }
 
 @media screen and (min-width: 200px) {
-    body{
+    body {
       box-sizing: border-box;
       display: block;
       margin: 10px;
     }
 
-    .conteiter{
-      width: 300px;
+    .conteiter {
+      width: 290px;
       margin: 0 auto;
     }
 
-    header{
+    header {
       width: auto;
       margin: 0 auto;
     }
 
-    .logo{
+    .logo {
       margin-top: 10px;
     }
 
-    .conteudo{
+    .conteudo {
       margin: 0 auto;
     }
 
-    img{
+    img {
       max-width: 100%;
     }
 
-    .trabalhos_realizado{
+    .trabalhos-realizado {
       margin: 0 auto;
       color: #7d97ad;
       text-align: center;
     }
 
-    .descricao_projeto{
+    .descricao-projeto {
       text-transform: uppercase;
     }
 
-    .artigo, .blog, .card_colecionaveis{
+    .artigo, .blog, .card-colecionaveis {
       text-align: center;
     }
   }
 
-  @media screen and (min-width: 450px){
-    body{
+  @media screen and (min-width: 450px) {
+    body {
       box-sizing: border-box;
       display: block;
       margin: 10px;
     }
 
-    .conteiter{
+    .conteiter {
       width: 420px;
       margin: 0 auto;
     }
 
-    .imagem_projeto{
+    .imagem-projeto {
       max-width: 60%;
     }
 
   }
 
-  @media screen and (min-width: 700px){
-    .imagem_projeto{
+  @media screen and (min-width: 700px) {
+    .imagem-projeto {
       max-width: 50%;
     }
 
-    .conteiter{
+    .conteiter {
       width: 660px;
       margin: 0 auto;
     }
 
-    .imagem_central{
+    .imagem-central {
       margin: 0 auto;
       width: 100vw;
       height: 50vw;
     }
 
-    .trabalhos_realizado{
+    .trabalhos-realizado {
       color: #7d97ad;
     }
 
   }
 
-  @media screen and (min-width: 850px){
+  @media screen and (min-width: 850px) {
     .conteiter{
       width: 810px;
       margin: 0 auto;
     }
 
-    .imagem_projeto{
+    .imagem-projeto {
       max-width: 100%;
     }
 
-    .imagem_central{
+    .imagem-central {
       margin: 0 auto;
       width: 100vw;
       height: 35vw;
     }
 
-    .projetos_feito{
+    .projetos-feito {
       display: flex;
     }
 
-    .trabalhos_realizado{
+    .trabalhos-realizado {
       text-align: left;
       margin-left: 40px;
 
     }
 
-    .projetos{
+    .projetos {
       width: 33.33%;
     }
 
   }
 
-  @media screen and (min-width: 1024px){
-    .conteiter{
+  @media screen and (min-width: 1024px) {
+    .conteiter {
       width: 980px;
       margin: 0 auto;
     }
